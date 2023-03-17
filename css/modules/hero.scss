@@ -1,21 +1,8 @@
 .hero    {
     position: relative;
-    padding: 60px 0;
-    background-color: $tertiary;
+    background-image: linear-gradient(to right, #a6be3a, #d89413, #f75d3f, #f31c7b, #b72ebd);
 }
 
-@charset "utf-8";
-/* CSS Document */
-
-/******* Common Element CSS Start ******/
-* {
-  margin: 0px;
-  padding: 0px;
-  outline: none;
-}
-body {
-  background-color: #ED4C69;
-}
 
 h2 {
   color: white;
@@ -42,6 +29,7 @@ h2 {
   width: 100%;
   position: relative;
   border: 3px dashed #EF8354;
+  background-image: linear-gradient(to left bottom, #0d3ec9, #8f11ac, #c10083, #d80056, #d90629);
   border-radius: 50%;
   display: flex;
   display: -webkit-flex;
@@ -65,8 +53,8 @@ h2 {
   -webkit-justify-content: center;
   background-image: linear-gradient(180deg, #4967e6 0%, #627bf4 100%);
   -webkit-background-image: linear-gradient(180deg, #4967e6 0%, #627bf4 100%);
-  box-shadow: 0 2px 4px 0 #3e5ada;
-  -webkit-box-shadow: 0 2px 4px 0 #3e5ada;
+  box-shadow: 0 2px 4px 0 #62646c;
+  -webkit-box-shadow: 0 2px 4px 0 #5c627f;
 }
 .icon-block img {
   margin: 0px auto;
@@ -100,6 +88,7 @@ h2 {
 }
 /* circle content */
 .circle {
+  background-image: radial-gradient(circle, #e93d28, #f06715, #f18b00, #eead00, #e6cd20);
   animation: circle-rotate 20s linear infinite;
   -webkit-animation: circle-rotate 20s linear infinite;
   position: absolute;
